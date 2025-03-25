@@ -11,6 +11,6 @@ const fs=require('fs');
 var data=fs.readFileSync("./test1/a.txt","UTF-8");
 
 var ar=data.split(" ");
-ar.sort();
+ar.sort((a,b)=>a-b);
 
 fs.writeFileSync("./test1/b.txt",ar.toString());
