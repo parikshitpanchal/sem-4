@@ -8,9 +8,15 @@ const fs=require('fs');
 
 //fs.writeFileSync("./test1/a.txt","4 2 6 1 3 7 9");
 
-var data=fs.readFileSync("./test1/a.txt","UTF-8");
+// var data=fs.readFileSync("./test1/a.txt","UTF-8");
 
-var ar=data.split(" ");
-ar.sort((a,b)=>a-b);
+// var ar=data.split(" ");
+// ar.sort((a,b)=>a-b);
 
-fs.writeFileSync("./test1/b.txt",ar.toString());
+// fs.writeFileSync("./test1/b.txt",ar.toString());
+
+
+
+// was to copy data from b.txt to c.txt. 
+var data=fs.readFileSync("./test1/b.txt","UTF-8");
+fs.writeFileSync("./test1/c.txt",data.toString());
