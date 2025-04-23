@@ -1,9 +1,0 @@
-1. kaggle
-2. uci machine learning repository
-3. twitter geospatial data
-4. data gov india
-5. nasa earth observation data
-6. world bank open data
-7. data.gov
-8. gapminder
-9. 
