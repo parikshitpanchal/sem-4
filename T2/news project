@@ -1,0 +1,16 @@
+Personalized News Aggregator
+Description: A platform that aggregates news from different sources and provides personalized recommendations based on user preferences.
+
+Tech Stack: React, MongoDB, Express, Node.js, News API
+
+Key Features:
+
+User profiles to select favorite topics (tech, sports, politics).
+
+News aggregation from multiple sources (via APIs).
+
+Personalized news feed based on user interests.
+
+Bookmarking articles and saving them for later reading.
+
+Admin dashboard to manage news sources and categories.
